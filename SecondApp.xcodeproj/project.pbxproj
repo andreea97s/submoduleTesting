@@ -9,16 +9,17 @@
 /* Begin PBXBuildFile section */
 		6DD24E92212FFBB900D841EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD24E91212FFBB900D841EB /* AppDelegate.swift */; };
 		6DD24E94212FFBB900D841EB /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD24E93212FFBB900D841EB /* WelcomeViewController.swift */; };
-		6DD24E97212FFBB900D841EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DD24E95212FFBB900D841EB /* Main.storyboard */; };
+		6DD24E97212FFBB900D841EB /* SecondApp .storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DD24E95212FFBB900D841EB /* SecondApp .storyboard */; };
 		6DD24E99212FFBBA00D841EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DD24E98212FFBBA00D841EB /* Assets.xcassets */; };
 		6DD24E9C212FFBBA00D841EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DD24E9A212FFBBA00D841EB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6DB0A93821303241000D41C9 /* SecondApp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SecondApp copy-Info.plist"; path = "/Users/andreea/Documents/submoduleTesting/SecondApp copy-Info.plist"; sourceTree = "<absolute>"; };
 		6DD24E8E212FFBB900D841EB /* SecondApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DD24E91212FFBB900D841EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DD24E93212FFBB900D841EB /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
-		6DD24E96212FFBB900D841EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DD24E96212FFBB900D841EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/SecondApp .storyboard"; sourceTree = "<group>"; };
 		6DD24E98212FFBBA00D841EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DD24E9B212FFBBA00D841EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DD24E9D212FFBBA00D841EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,6 +41,7 @@
 			children = (
 				6DD24E90212FFBB900D841EB /* SecondApp */,
 				6DD24E8F212FFBB900D841EB /* Products */,
+				6DB0A93821303241000D41C9 /* SecondApp copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,7 +58,7 @@
 			children = (
 				6DD24E91212FFBB900D841EB /* AppDelegate.swift */,
 				6DD24E93212FFBB900D841EB /* WelcomeViewController.swift */,
-				6DD24E95212FFBB900D841EB /* Main.storyboard */,
+				6DD24E95212FFBB900D841EB /* SecondApp .storyboard */,
 				6DD24E98212FFBBA00D841EB /* Assets.xcassets */,
 				6DD24E9A212FFBBA00D841EB /* LaunchScreen.storyboard */,
 				6DD24E9D212FFBBA00D841EB /* Info.plist */,
@@ -124,7 +126,7 @@
 			files = (
 				6DD24E9C212FFBBA00D841EB /* LaunchScreen.storyboard in Resources */,
 				6DD24E99212FFBBA00D841EB /* Assets.xcassets in Resources */,
-				6DD24E97212FFBB900D841EB /* Main.storyboard in Resources */,
+				6DD24E97212FFBB900D841EB /* SecondApp .storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,12 +145,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6DD24E95212FFBB900D841EB /* Main.storyboard */ = {
+		6DD24E95212FFBB900D841EB /* SecondApp .storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6DD24E96212FFBB900D841EB /* Base */,
 			);
-			name = Main.storyboard;
+			name = "SecondApp .storyboard";
 			sourceTree = "<group>";
 		};
 		6DD24E9A212FFBBA00D841EB /* LaunchScreen.storyboard */ = {

@@ -8,9 +8,9 @@
 
 import UIKit
 
-class WelcomeViewController: UIViewController {
+public class WelcomeViewController: UIViewController {
 
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         print("LALALA")
         print("HAHAH")
